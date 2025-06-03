@@ -2,8 +2,9 @@
 [![PyPI version](https://badge.fury.io/py/bedrock-security-checker.svg)](https://pypi.org/project/bedrock-security-checker/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![AI Security](https://img.shields.io/badge/AI%20Security-GenAI%20Ready-purple)](https://github.com/ethanolivertroy/aws-bedrock-security-config-check)
-[![AWS Bedrock](https://img.shields.io/badge/AWS-Bedrock%20Compatible-orange)](https://aws.amazon.com/bedrock/)
+[![Security Audit](https://img.shields.io/badge/Security-Audit%20Tool-red)](https://github.com/ethanolivertroy/aws-bedrock-security-config-check)
+[![OWASP](https://img.shields.io/badge/OWASP-LLM%20Top%2010-darkblue)](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+[![AWS](https://img.shields.io/badge/AWS-Security%20Best%20Practices-orange)](https://aws.amazon.com/security/)
 
 ## Enhanced with GenAI-Specific Security Features 🚀
 
