@@ -7,6 +7,8 @@
 
 A comprehensive security auditing tool for AWS Bedrock that combines traditional cloud security best practices with cutting-edge GenAI security capabilities. Perfect for organizations adopting generative AI while maintaining enterprise security standards.
 
+![AWS Bedrock Security Checker Demo](demo-screenshot.png)
+
 ## 🎯 Key Features for GenAI Security
 
 ### GenAI-Specific Security Checks
@@ -179,8 +181,6 @@ bedrock-security-checker --region us-west-2
 ```
 
 ## 📊 Example Output (Beginner Mode)
-
-![AWS Bedrock Security Checker Demo](demo-screenshot.png)
 
 ```
 🔍 AWS Bedrock Security Check - Beginner Mode
