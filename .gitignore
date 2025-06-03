@@ -42,3 +42,4 @@ build/
 
 # PyPI
 .pypirc
+twine.log

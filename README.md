@@ -310,6 +310,23 @@ We welcome contributions! Areas of interest:
 - Support for other cloud providers
 - Enhanced remediation automation
 
+### Development Setup
+```bash
+# Clone and install in development mode
+git clone https://github.com/ethantroy/aws-bedrock-security-config-check.git
+cd aws-bedrock-security-config-check
+make install-dev
+
+# Run tests
+make test
+
+# Format code
+make format
+```
+
+### Releasing New Versions
+Releases are automated via GitHub Actions. See [RELEASING.md](RELEASING.md) for details.
+
 ## 📋 Required IAM Permissions
 
 ```json
@@ -377,6 +394,25 @@ While the main security checker requires AWS credentials, you can:
 1. Use the learning mode to understand security concepts: `python bedrock_security_checker.py --learn`
 2. Review the documentation in this README
 3. Use the tool with read-only IAM credentials to explore safely
+
+#### "command not found: bedrock-security-checker" after pip install
+If pip installed the package but the command isn't found:
+
+```bash
+# Option 1: Add Python user bin to PATH
+echo 'export PATH="$HOME/Library/Python/3.11/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+
+# Option 2: Use the full path
+~/Library/Python/3.11/bin/bedrock-security-checker
+
+# Option 3: Create an alias
+echo 'alias bedrock-security-checker="$HOME/Library/Python/3.11/bin/bedrock-security-checker"' >> ~/.zshrc
+source ~/.zshrc
+
+# Option 4: Install with pipx (recommended for CLI tools)
+pipx install bedrock-security-checker
+```
 
 ## 📄 License
 

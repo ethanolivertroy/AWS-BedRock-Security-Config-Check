@@ -12,7 +12,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="bedrock-security-checker",
-    version="1.0.0",
+    version="1.0.2",
     author="Ethan Troy",
     author_email="",  # Optional - leave empty or use a project email
     description="AWS Bedrock Security Configuration Checker with GenAI-specific security features",
@@ -38,7 +38,7 @@ setup(
         "Programming Language :: Python :: 3.12",
         "Operating System :: OS Independent",
     ],
-    packages=find_packages(),
+    py_modules=["bedrock_security_checker"],
     python_requires=">=3.8",
     install_requires=[
         "boto3>=1.34.0",
