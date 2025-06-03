@@ -2,7 +2,7 @@
 [![PyPI version](https://badge.fury.io/py/bedrock-security-checker.svg)](https://pypi.org/project/bedrock-security-checker/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![AI Security](https://img.shields.io/badge/AI%20Security-GenAI%20Ready-purple)](https://github.com/ethantroy/aws-bedrock-security-config-check)
+[![AI Security](https://img.shields.io/badge/AI%20Security-GenAI%20Ready-purple)](https://github.com/ethanolivertroy/aws-bedrock-security-config-check)
 [![AWS Bedrock](https://img.shields.io/badge/AWS-Bedrock%20Compatible-orange)](https://aws.amazon.com/bedrock/)
 
 ## Enhanced with GenAI-Specific Security Features 🚀
@@ -151,7 +151,7 @@ bedrock-security-checker
 
 **Option 2: Install from Source**
 ```bash
-git clone https://github.com/ethantroy/aws-bedrock-security-config-check.git
+git clone https://github.com/ethanolivertroy/aws-bedrock-security-config-check.git
 cd aws-bedrock-security-config-check
 pip install -e .
 
@@ -321,7 +321,7 @@ We welcome contributions! Areas of interest:
 ### Development Setup
 ```bash
 # Clone and install in development mode
-git clone https://github.com/ethantroy/aws-bedrock-security-config-check.git
+git clone https://github.com/ethanolivertroy/aws-bedrock-security-config-check.git
 cd aws-bedrock-security-config-check
 make install-dev
 

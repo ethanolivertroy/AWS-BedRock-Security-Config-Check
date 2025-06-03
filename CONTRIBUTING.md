@@ -26,7 +26,7 @@ Thank you for your interest in contributing! This project welcomes contributions
 
 ### Development Setup
 ```bash
-git clone https://github.com/ethantroy/aws-bedrock-security-config-check.git
+git clone https://github.com/ethanolivertroy/aws-bedrock-security-config-check.git
 cd aws-bedrock-security-config-check
 make install-dev
 ```

@@ -18,10 +18,10 @@ setup(
     description="AWS Bedrock Security Configuration Checker with GenAI-specific security features",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ethantroy/aws-bedrock-security-config-check",
+    url="https://github.com/ethanolivertroy/aws-bedrock-security-config-check",
     project_urls={
-        "Bug Tracker": "https://github.com/ethantroy/aws-bedrock-security-config-check/issues",
-        "Documentation": "https://github.com/ethantroy/aws-bedrock-security-config-check#readme",
+        "Bug Tracker": "https://github.com/ethanolivertroy/aws-bedrock-security-config-check/issues",
+        "Documentation": "https://github.com/ethanolivertroy/aws-bedrock-security-config-check#readme",
     },
     classifiers=[
         "Development Status :: 4 - Beta",

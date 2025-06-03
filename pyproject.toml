@@ -37,9 +37,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/ethantroy/aws-bedrock-security-config-check"
-"Bug Tracker" = "https://github.com/ethantroy/aws-bedrock-security-config-check/issues"
-Documentation = "https://github.com/ethantroy/aws-bedrock-security-config-check#readme"
+Homepage = "https://github.com/ethanolivertroy/aws-bedrock-security-config-check"
+"Bug Tracker" = "https://github.com/ethanolivertroy/aws-bedrock-security-config-check/issues"
+Documentation = "https://github.com/ethanolivertroy/aws-bedrock-security-config-check#readme"
 
 [project.scripts]
 bedrock-security-checker = "bedrock_security_checker:main"
