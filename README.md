@@ -1,4 +1,8 @@
 # AWS Bedrock Security Configuration Checker
+[![PyPI version](https://badge.fury.io/py/bedrock-security-checker.svg)](https://pypi.org/project/bedrock-security-checker/)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
 ## Enhanced with GenAI-Specific Security Features 🚀
 
 A comprehensive security auditing tool for AWS Bedrock that combines traditional cloud security best practices with cutting-edge GenAI security capabilities. Perfect for organizations adopting generative AI while maintaining enterprise security standards.
@@ -175,6 +179,8 @@ bedrock-security-checker --region us-west-2
 ```
 
 ## 📊 Example Output (Beginner Mode)
+
+![AWS Bedrock Security Checker Demo](demo-screenshot.png)
 
 ```
 🔍 AWS Bedrock Security Check - Beginner Mode
