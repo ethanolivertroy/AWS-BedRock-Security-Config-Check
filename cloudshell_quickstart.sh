@@ -96,7 +96,7 @@ test_in_cloudshell() {
         git pull 2>/dev/null || echo "  (Not a git repository or no updates available)"
     else
         echo "Please provide your GitHub repository URL:"
-        echo "(Example: https://github.com/yourusername/aws-bedrock-security-config-check)"
+        echo "(Example: https://github.com/ethanolivertroy/aws-bedrock-security-config-check)"
         read -p "GitHub URL: " REPO_URL
         
         if [ -z "$REPO_URL" ]; then

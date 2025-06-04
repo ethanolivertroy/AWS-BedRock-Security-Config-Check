@@ -108,7 +108,7 @@ If you prefer using AWS CloudShell:
 
 ```bash
 # In CloudShell, clone the repo
-git clone https://github.com/yourusername/aws-bedrock-security-config-check.git
+git clone https://github.com/ethanolivertroy/aws-bedrock-security-config-check.git
 cd aws-bedrock-security-config-check
 
 # Run the setup script
